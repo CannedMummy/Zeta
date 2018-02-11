@@ -1,0 +1,10 @@
+﻿{
+   "options": {
+   },
+
+   "target": {
+      "files": {
+         "public/css/site.css": "resources/assets/less/site.less"
+      }
+   }
+}

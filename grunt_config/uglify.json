@@ -1,0 +1,12 @@
+﻿{
+   "target": {
+      "options": {
+         "beautify": true
+      },
+      "files": {
+         "public/js/site.min.js": [
+            "public/js/site.js"
+         ]
+      }
+   }
+}

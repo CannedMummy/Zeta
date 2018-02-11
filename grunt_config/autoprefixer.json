@@ -1,0 +1,26 @@
+{
+   "options": {
+      "browsers": [
+         "Android >= 4",
+         "Android 2.3",
+         "Chrome >= 20",
+         "Explorer >= 8",
+         "Firefox >= 24",
+         "iOS >= 6",
+         "Opera >= 12",
+         "Safari >= 6"
+      ]
+   },
+
+   "css": {
+      "files": [
+         {
+            "cwd": "public/css",
+            "dest": "public/css",
+            "expand": true,
+            "flatten": true,
+            "src": [ "site.css" ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,10 @@
+﻿{
+   "target": {
+      "cwd": "coffee",
+      "dest": "js",
+      "expand": true,
+      "ext": ".js",
+      "flatten": true,
+      "src": [ "main.coffee" ]
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "css": {
+      "files": [
+         {
+            "cwd": "public/css",
+            "dest": "public/css",
+            "expand": true,
+            "ext": ".min.css",
+            "src": [ "site.css" ]
+         }
+      ]
+   }
+}

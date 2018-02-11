@@ -1,0 +1,20 @@
+﻿{
+   "less": {
+      "files": [
+         {
+            "cwd": "resources/assets/less",
+            "dest": "resources/assets/less",
+            "expand": true,
+            "flatten": true,
+            "src": [ "*.less" ]
+         },
+         {
+            "cwd": "resources/assets/less/components",
+            "dest": "resources/assets/less/components",
+            "expand": true,
+            "flatten": true,
+            "src": [ "*.less" ]
+         }
+      ]
+   }
+}

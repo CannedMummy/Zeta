@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="app\**" />
+    <Compile Remove="bootstrap\**" />
+    <Compile Remove="config\**" />
+    <Compile Remove="database\**" />
+    <Compile Remove="public\js\main-app\**" />
+    <Compile Remove="routes\**" />
+    <Compile Remove="tests\**" />
+    <Compile Remove="vendor\**" />
+    <Content Remove="app\**" />
+    <Content Remove="bootstrap\**" />
+    <Content Remove="config\**" />
+    <Content Remove="database\**" />
+    <Content Remove="public\js\main-app\**" />
+    <Content Remove="routes\**" />
+    <Content Remove="tests\**" />
+    <Content Remove="vendor\**" />
+    <EmbeddedResource Remove="app\**" />
+    <EmbeddedResource Remove="bootstrap\**" />
+    <EmbeddedResource Remove="config\**" />
+    <EmbeddedResource Remove="database\**" />
+    <EmbeddedResource Remove="public\js\main-app\**" />
+    <EmbeddedResource Remove="routes\**" />
+    <EmbeddedResource Remove="tests\**" />
+    <EmbeddedResource Remove="vendor\**" />
+    <None Remove="app\**" />
+    <None Remove="bootstrap\**" />
+    <None Remove="config\**" />
+    <None Remove="database\**" />
+    <None Remove="public\js\main-app\**" />
+    <None Remove="routes\**" />
+    <None Remove="tests\**" />
+    <None Remove="vendor\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="composer.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".env" />
+    <None Remove=".env.example" />
+    <None Remove="artisan" />
+    <None Remove="composer.lock" />
+    <None Remove="httpd.lnk" />
+    <None Remove="index.php" />
+    <None Remove="phpunit.xml" />
+    <None Remove="server.php" />
+    <None Remove="UpgradeLog.htm" />
+    <None Remove="webpack.mix.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="resources\assets\js\main-app\min-safe\" />
+  </ItemGroup>
+
+</Project>

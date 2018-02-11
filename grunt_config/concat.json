@@ -1,0 +1,8 @@
+﻿{
+   "app": {
+      "src": [
+         "resources/assets/js/main-app/min-safe/*.js"
+      ],
+      "dest": "public/js/site.js"
+   }
+}

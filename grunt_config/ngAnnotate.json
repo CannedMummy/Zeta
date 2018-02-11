@@ -1,0 +1,12 @@
+﻿{
+   "options": {
+      "singleQuotes": true
+   },
+   "app": {
+      "files": {
+         "resources/assets/js/main-app/min-safe/main.js": [
+            "resources/assets/js/main-app/main.js"
+         ]
+      }
+   }
+}

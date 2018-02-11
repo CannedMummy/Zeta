@@ -1,0 +1,16 @@
+npm install
+npm install --save-dev grunt
+npm install --save-dev grunt-cli
+
+npm install --save-dev grunt-autoprefixer
+npm install --save-dev grunt-contrib-coffee
+npm install --save-dev grunt-contrib-concat
+npm install --save-dev grunt-contrib-cssmin
+npm install --save-dev grunt-contrib-less
+npm install --save-dev grunt-contrib-uglify
+npm install --save-dev grunt-contrib-watch
+npm install --save-dev grunt-csscomb
+npm install --save-dev grunt-exec
+npm install --save-dev grunt-ng-annotate
+
+exit

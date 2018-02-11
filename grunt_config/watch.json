@@ -1,0 +1,54 @@
+﻿{
+   "gruntfile": {
+      "files": [
+         "Gruntfile.js",
+         "grunt_config/*.json"
+      ],
+      "options": {
+         "reload": true,
+         "interval": 0
+      }
+   },
+
+   "coffee": {
+      "files": [ "coffee/**/*.coffee" ],
+      "tasks": [ "coffee" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0,
+         "spawn": false
+      }
+   },
+
+   "css": {
+      "files": [ "public/css**/*.css", "public/css/**/*.min.css" ],
+      "tasks": [ "compile-css" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0,
+         "spawn": false
+      }
+   },
+
+   "less": {
+      "files": [ "resources/assets/less/**/*.less" ],
+      "tasks": [ "compile-less" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0
+      }
+   },
+
+   "uglify": {
+      "files": [ "resources/assets/js/**/*.js" ],
+      "tasks": [ "ngAnnotate", "concat", "uglify" ],
+      "options": {
+         "debounceDelay": 500,
+         "event": [ "all" ],
+         "interval": 0
+      }
+   }
+}
