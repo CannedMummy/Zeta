@@ -1,5 +1,6 @@
 ﻿var
-    app = angular.module('mainApp', ['ngCookies', 'ngSanitize']);
+    app = angular.module('MainApp',
+        ['ngAnimate', 'ngCookies', 'ngSanitize', 'ngMessages', 'ngMaterial']);
 
 app.config(function ($interpolateProvider) {
     $interpolateProvider.startSymbol('[[');
@@ -7,5 +8,4 @@ app.config(function ($interpolateProvider) {
 });
 
 $(document).ready(function () {
-
 });

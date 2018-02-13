@@ -1,8 +1,11 @@
 <html xmlns='http://www.w3.org/1999/xhtml'
       xmlns:data='http://www.google.com/2005/gml/data'
       xmlns:b='http://www.google.com/2005/gml/b'
-      >
+>
    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta charset="UTF-8"/>
+
       <title id="page-title">
          <b:if cond='data:blog.pageType == "static_page" or data:blog.pageType == "item"'>
             <data:blog.pageName/>
@@ -10,23 +13,31 @@
             <data:blog.pageTitle/>
 
             <b:else/>
-            
+
             <data:blog.pageTitle/>
 
          </b:if>
       </title>
 
+      <link rel="stylesheet" href="https://cdn.rawgit.com/CannedMummy/Zeta/master/public/css/angular-material.min.css"/>
 
       <b:skin><![CDATA[
          ]]>
       </b:skin>
    </head>
 
-   <body>
+   <body ng-cloak>
 
-      
-   <b:section id="hello" class="hello"></b:section>
+      <b:section id="hello" class="hello"></b:section>
 
 
+      <script type="text/javascript" src="https://cdn.rawgit.com/CannedMummy/Zeta/master/public/js/angular.min.js"></script>
+      <script type="text/javascript" src="https://cdn.rawgit.com/CannedMummy/Zeta/master/public/js/angular-animate.min.js"></script>
+      <script type="text/javascript" src="https://cdn.rawgit.com/CannedMummy/Zeta/master/public/js/angular-aria.min.js"></script>
+      <script type="text/javascript" src="https://cdn.rawgit.com/CannedMummy/Zeta/master/public/js/angular-messages.min.js"></script>
+      <script type="text/javascript" src="https://cdn.rawgit.com/CannedMummy/Zeta/master/public/js/angular-sanitize.min.js"></script>
+      <script type="text/javascript" src="https://cdn.rawgit.com/CannedMummy/Zeta/master/public/js/angular-material.min.js"></script>
+
+      <script type="text/javascript" src="https://cdn.rawgit.com/CannedMummy/Zeta/master/public/js/jquery-3.3.1.min.js"></script>
    </body>
 </html>
